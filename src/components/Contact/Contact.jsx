@@ -45,14 +45,9 @@ const Contact = () => {
       return;
     }
     emailjs
-      .sendForm(
-        import.meta.env.VITE_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
-        form.current,
-        {
-          publicKey: import.meta.env.VITE_EMAILJS_PUBLIC_KEY,
-        }
-      )
+      .sendForm("service_yxilqja", "template_9fjdqab", form.current, {
+        publicKey: "GUTZ6LgPpE4hL344c",
+      })
       .then(
         () => {
           toast.success("Message sent successfully!");
