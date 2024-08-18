@@ -1,5 +1,35 @@
 export const data = [
   {
+    gif: "assets/pasaj.gif",
+    name: "Pasaj",
+    techs: [
+      "nextjs",
+      "styledcomponents",
+      "firebase",
+      "ts",
+      "reactquery",
+      "zustand",
+    ],
+    desc: "In my e-commerce project, I utilized a range of technologies to build a robust platform. I implemented user authentication with Next Auth and Firebase, managed state with Zustand, and ensured data validation with Zod. React Query was used for efficient data fetching, while React Hook Form facilitated form handling. The project also features a dynamic UI built with Styled Components and Swiper.js for interactive elements. The entire application was developed using the Next.js Pages Router.",
+    demo: "https://pasaj.vercel.app/",
+    code: "https://github.com/akkologlu/pasaj",
+  },
+  {
+    gif: "assets/shopco.gif",
+    name: "Shop.co",
+    techs: [
+      "nextjs",
+      "bootstrap",
+      "styledcomponents",
+      "redux",
+      "firebase",
+      "sass",
+    ],
+    desc: "In this project, I developed an e-commerce site based on a Figma design. Key features include user management with Firebase, a categorized product catalog, a user-friendly cart, and a review system. The site is fully responsive, optimized for both mobile and desktop. I used technologies like Next.js, Redux Toolkit, Firebase, JSON-Server, and Styled-Components.",
+    demo: "https://turkcell-final-shopco.vercel.app/en",
+    code: "https://github.com/akkologlu/turkcel-final-next",
+  },
+  {
     gif: "assets/bookify.gif",
     name: "Bookify",
     techs: ["sass", "bootstrap", "js"],

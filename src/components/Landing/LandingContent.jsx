@@ -31,6 +31,8 @@ const LandingContent = () => {
           "react",
           "redux",
           "nextjs",
+          "zustand",
+          "reactquery",
         ]}
       />
       <RowBetween>
